@@ -1,9 +1,3 @@
-
-var groupAdmin = "+6590970960"; // TODO: Specify the WhatsApp number of the group creator, including the country code
-var groupName = "Test";   // TODO: Specify the name of the group
-var message = "hello"
-
-
 var http = require('http');
 
 var instanceId = "24";  // TODO: Replace it with your gateway instance ID here
@@ -11,9 +5,9 @@ var clientId = " maxchao7023@gmail.com";  // TODO: Replace it with your Forever 
 var clientSecret = "16609007ee7840138d521bdab65986b6";   // TODO: Replace it with your Forever Green client secret here
 
 var jsonPayload = JSON.stringify({
-    group_admin: groupAdmin, // TODO: Specify the WhatsApp number of the group creator, including the country code
-    group_name: groupName,   // TODO:  Specify the name of the group
-    message: message  // TODO: Specify the content of your message
+    group_admin: '6590970960', // TODO: Specify the WhatsApp number of the group creator, including the country code
+    group_name: 'Test',   // TODO:  Specify the name of the group
+    message: 'hello'  // TODO: Specify the content of your message
 });
 
 var options = {
